@@ -1,0 +1,7 @@
+{
+    "heading_h1":".content h3",
+    "userName_txt":"#email",
+    "password_txt":"#password",
+    "login_btn":"[name='submit']",
+    "errSpan":"div span b"
+}

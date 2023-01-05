@@ -1,0 +1,19 @@
+{
+    "reqQuotation_section":"#ui-id-2",
+    "breakdowncover_dropdown":"#quotation_breakdowncover",
+    "quotation_radio":"#quotation_windscreenrepair_t",
+    "incident_input":"input[name='incidents']",
+    "registrtion":"input[name='registration']",
+    "mileage":"input[name='mileage']",
+    "estimate_value":"input[name=value]",
+    "parking_location":"#quotation_vehicle_attributes_parkinglocation",
+    "SOP_year":"#quotation_vehicle_attributes_policystart_1i",
+    "SOP_month":"#quotation_vehicle_attributes_policystart_2i",
+    "SOP_date":"#quotation_vehicle_attributes_policystart_3i",
+    "calculate_btn":"[value=\"Calculate Premium\"]",
+    "calculatePremium":"#calculatedpremium",
+    "resetbtn":"#resetquote",
+    "saveQTNbtn":"#new_quotation > .actions > .btn-success"
+
+
+}

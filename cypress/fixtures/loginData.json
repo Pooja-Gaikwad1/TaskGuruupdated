@@ -1,0 +1,11 @@
+{
+    "valid":{
+        "emailID":"pujabhosale23@gmail.com",
+        "password":"pooja@123"
+    },
+    "invalid":{
+        "emailID":"pujabhosale2393@gmail.com",
+        "errSpan":"Enter your Email address and password correct"
+    }
+    
+}

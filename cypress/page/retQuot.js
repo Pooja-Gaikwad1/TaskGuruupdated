@@ -2,46 +2,44 @@ import locators from "../pageLocators/retQuote.json"
 import webActionsObj from "../utility/webactions"
 import webasssertObj from "../utility/webassert"
 
-class ret{
-    get ret_quote_section(){
+class ret {
+    get ret_quote_section() {
         return cy.get(locators.ret_quote_section)
     }
-    get retbtn(){
+    get retbtn() {
         return cy.get(locators.retbtn)
     }
-    get reqQuotNumberTxt(){
+    get reqQuotNumberTxt() {
         return cy.get(locators.retinputbox)
     }
-    get retTable(){
+    get retTable() {
         return cy.get(locators.ret_table)
     }
-    get logoutBtn(){
+    get logoutBtn() {
         return cy.get(locators.logoutbtn)
     }
-    get loginBtn(){
+    get loginBtn() {
         return cy.get(locators.login_btn)
     }
-    clickLogoutbtn(){
+    clickLogoutbtn() {
         webActionsObj.clickButton(this.logoutBtn)
     }
-    assertLoginbtn(){
+    assertLoginbtn() {
         webasssertObj.visible(this.loginBtn)
     }
-    returnQuoteSec(){
+    returnQuoteSec() {
         webActionsObj.clickButton(this.ret_quote_section)
     }
-    reqQuotNumber(value){
-        webActionsObj.typeText(this.reqQuotNumberTxt,value)
+    reqQuotNumber(value) {
+        webActionsObj.typeText(this.reqQuotNumberTxt, value)
     }
-    retrivebtn(){
+    retrivebtn() {
         webActionsObj.clickButton(this.retbtn)
     }
-    assertRet(){
+    assertRet() {
         webasssertObj.visible(this.retTable)
-
     }
-
-
 }
-let retriveobj=new ret()
+
+let retriveobj = new ret()
 export default retriveobj

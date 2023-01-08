@@ -3,74 +3,74 @@ import locators from "../pageLocators/profile.json"
 import webActionsObj from "../utility/webactions"
 import webasssertObj from "../utility/webassert"
 
-class profilePage{
-    get profile_section(){
+class profilePage {
+    get profile_section() {
         return cy.get(locators.profile_section)
     }
-    get title(){
+    get title() {
         return cy.get(locators.title)
     }
-    get firstName(){
+    get firstName() {
         return cy.get(locators.firstName)
     }
-    get surName(){
+    get surName() {
         return cy.get(locators.surName)
     }
-    get phone(){
+    get phone() {
         return cy.get(locators.phone)
     }
-    get DOB(){
+    get DOB() {
         return cy.get(locators.DOB)
     }
-    get lType(){
+    get lType() {
         return cy.get(locators.l_Type)
     }
-    get lPeriod(){
+    get lPeriod() {
         return cy.get(locators.l_Period)
     }
-    get occupation(){
+    get occupation() {
         return cy.get(locators.occupation)
     }
-    get dHistory(){
+    get dHistory() {
         return cy.get(locators.driver_History)
     }
-    get address_street(){
+    get address_street() {
         return cy.get(locators.address)
     }
-    clickProfileBtn(){
+    clickProfileBtn() {
         webActionsObj.clickButtonforce(this.profile_section)
     }
-    titleBox(){
+    titleBox() {
         webasssertObj.filledTextBox(this.title)
     }
-    firstNameBox(){
+    firstNameBox() {
         webasssertObj.filledTextBox(this.firstName)
     }
-    surNameBox(){
+    surNameBox() {
         webasssertObj.filledTextBox(this.surName)
     }
-    phoneBox(){
+    phoneBox() {
         webasssertObj.filledTextBox(this.phone)
     }
-    dobBox(){
+    dobBox() {
         webasssertObj.filledTextBox(this.DOB)
     }
-    licenceTypeBox(){
+    licenceTypeBox() {
         webasssertObj.filledTextBox(this.lType)
     }
-    licencePeriodBox(){
+    licencePeriodBox() {
         webasssertObj.filledTextBox(this.lPeriod)
     }
-    occupationBox(){
+    occupationBox() {
         webasssertObj.filledTextBox(this.occupation)
     }
-    driverHistoryBox(){
+    driverHistoryBox() {
         webasssertObj.filledTextBox(this.dHistory)
     }
-    addressBox(){
+    addressBox() {
         webasssertObj.filledTextBox(this.address_street)
     }
 
 }
-let profilePageObj=new profilePage()
+let profilePageObj = new profilePage()
 export default profilePageObj

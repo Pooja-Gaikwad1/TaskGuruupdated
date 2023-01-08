@@ -10,7 +10,7 @@ Feature: Request Quotation
     @atc-04
     Scenario:verify SaveFunctionality
         And I click on Save Button
-    
+
     @atc-05
     Scenario:verify reset quotation
         Given I am on Request Quotation Page

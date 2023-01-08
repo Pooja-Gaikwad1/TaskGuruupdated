@@ -1,0 +1,10 @@
+{
+    "edit_Profile": "#ui-id-5",
+    "userSurname": "#user_surname",
+    "user_Firstname": "#user_firstname",
+    "phone": "#user_phone",
+    "city": "#user_address_attributes_city",
+    "country": "#user_address_attributes_county",
+    "postCode": "#user_address_attributes_county",
+    "updateUserBtn": "[value='Update User']"
+}

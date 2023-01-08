@@ -1,8 +1,8 @@
 {
-    "ret_quote_section":"#ui-id-3",
-    "retbtn":"#getquote",
-    "retinputbox":"input[placeholder='identification number']",
-    "ret_table":"[border='1']",
-    "logoutbtn":".btn-danger",
-    "login_btn":"[name='submit']"
+    "ret_quote_section": "#ui-id-3",
+    "retbtn": "#getquote",
+    "retinputbox": "input[placeholder='identification number']",
+    "ret_table": "[border='1']",
+    "logoutbtn": ".btn-danger",
+    "login_btn": "[name='submit']"
 }

@@ -13,6 +13,9 @@ class webasssert{
     emptyTextBox(cyElement){
         cyElement.should('be.empty')
     }
+    filledTextBox(cyElement){
+        cyElement.should('not.be.empty')
+    }
 }
 let webasssertObj=new webasssert()
 export default webasssertObj

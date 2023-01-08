@@ -1,0 +1,14 @@
+{
+    "profile_section":"#ui-id-4",
+    "title":"#tabs-4 > p:nth-child(3)",
+    "firstName":"#tabs-4 > p:nth-child(6)",
+    "surName":"#tabs-4 > p:nth-child(9)",
+    "phone":"#tabs-4 > p:nth-child(12)",
+    "DOB":"#tabs-4 > p:nth-child(15)",
+    "l_Type":"#tabs-4 > p:nth-child(18)",
+    "l_Period":"#tabs-4 > p:nth-child(21)",
+    "occupation":"#tabs-4 > p:nth-child(24)",
+    "driver_History":"#tabs-4 > p:nth-child(27)",
+    "address":"#showstreet"
+
+}
